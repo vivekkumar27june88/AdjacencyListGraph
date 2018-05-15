@@ -8,6 +8,7 @@ public class Graph {
 	private LinkedList<Integer> _adjacencyList[];
 	private int _v = 0;
 	
+	/* Creating a graph for v number of vertices */
 	@SuppressWarnings("unchecked")
 	Graph(int v) {
 		this._v = v;
